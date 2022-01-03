@@ -1,0 +1,83 @@
+body {
+    margin:0;
+}
+
+/* main {
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+
+} */
+
+.custom-header {
+    background-color: rgb(71, 101, 165);
+    margin: 0%;
+    padding:0%;
+    display:block;
+    height: 80px;
+
+}
+
+h1.app-title {
+    color: white; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.card h5 {
+    margin-left: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-weight: bold;
+    font-size: 20px;
+}
+.form-input {
+    width: 100%;
+    padding:0.5rem;
+    margin: 8px 0;
+    font-size: 1.2rem;
+    border: 1px solid lightgrey;
+    border-radius: 2%;
+
+}
+.btn.btn-search {
+   width:100%;
+   text-align: center;
+   background-color: rgb(41, 141, 255);
+   color:lightskyblue;
+
+
+}
+.btn {
+    padding: 0.5rem 1.2rem;
+    margin:0;
+    font-size:1rem;
+    border-radius: 0.3rem;
+    border:1px solid transparent;
+
+}
+
+hr {
+    /* width: 100%; */
+    margin-left: 5px;
+}
+
+.btn-prev-search {
+    width:100%;
+    text-align: center;
+    background-color: lightgray;
+    color:gray;
+    padding: 0.5rem 1.2rem;
+    margin:0;
+    border-radius: 0.3rem;
+    border:1px solid transparent;
+
+}
+
+#fiveday-header h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.day-item {
+    background-color:rgb(71, 101, 165) ;
+}
